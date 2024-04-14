@@ -1,0 +1,168 @@
+            body {
+                direction: rtl;
+            }
+            
+            .sidebar h2 {
+                color: #fff;
+                padding-bottom: 2.5rem;
+            }
+            
+            .content h1 {
+                width: 100%;
+            }
+            
+            @media (max-width:768px) {
+                .sidebar h2 {
+                    float: left;
+                }
+            }
+            
+            .search-form {
+                margin-left: 17rem
+            }
+            
+            @media (min-width: 1119px) {
+                .content .search-icon {
+                    right: 279px !important;
+                }
+            }
+            
+            @media (max-width: 601px) {
+                .content .search-icon {
+                    right: 105px !important;
+                }
+            }
+            
+            @media (max-width: 841px) {
+                .content .search-icon {
+                    right: 94spx !important;
+                }
+            }
+            
+            .content-header span {
+                margin-left: 0.5rem;
+            }
+            
+            @media (min-width: 992px) {
+                .header .navbar {
+                    width: 70%;
+                }
+            }
+            
+            .header .navbar li {
+                float: right;
+            }
+            
+            .content .Courtney {
+                padding-left: 1rem;
+            }
+            
+            .content .notifcation {
+                margin-left: 6rem;
+            }
+            
+            .content-header .navbar span {
+                margin-left: 0.5rem;
+            }
+            
+            .the-toggler {
+                right: 297px;
+            }
+            
+            .content-header span {
+                margin-left: 0rem;
+            }
+            
+            .icon-box {
+                margin-left: 10px;
+            }
+            
+            .coin-numbers .total-num {
+                padding-right: 20px;
+                padding-top: 12px;
+            }
+            
+            .totla-icon {
+                padding-right: 10%;
+            }
+            
+            .totla-icon img {
+                width: 90px;
+            }
+            
+            .chart .chart-header-icon {
+                padding-right: 20px;
+            }
+            
+            .chart .treding-img {
+                margin-left: 20px;
+            }
+            
+            .chart-container {
+                flex-direction: row-reverse;
+            }
+            
+            .chart .v-prices {
+                left: -4px;
+            }
+            
+            .footer #bitcoin {
+                margin-right: 0px;
+            }
+            
+            .footer-body span {
+                margin-right: 10px;
+            }
+            
+            .header .logo {
+                position: relative;
+                display: flex;
+            }
+            
+            .the-toggler:focus~.navbar {
+                display: block !important;
+                background-color: #3a6ff8 !important;
+                margin-top: 4rem;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+            
+            @media (min-width: 601px) {
+                .the-toggler {
+                    right: 457px !important;
+                }
+                .content h1 {
+                    padding-right: 12px;
+                }
+                .content .search-icon {
+                    right: 111px;
+                }
+                .search-form input {
+                    padding: .9rem 2rem;
+                    width: 100%;
+                }
+            }
+            
+            .header .navbar li a {
+                float: right !important;
+            }
+            
+            @media (max-width: 1206px) {
+                .content .Courtney {
+                    padding-left: 0rem !important;
+                    float: right;
+                }
+            }
+            
+            @media (max-width: 1192px) {
+                .content .notifcation {
+                    margin-right: 3rem !important;
+                    float: right !important;
+                }
+            }
+            
+            @media (max-width:348px) {
+                .the-toggler {
+                    right: 192px !important;
+                }
+            }
